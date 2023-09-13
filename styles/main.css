@@ -1,0 +1,21 @@
+* {background-color: hotpink}
+
+img{
+    width: 35em;
+    height: 35em
+}
+.card_one{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.card_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card_three{
+    display: flex;
+    justify-content: center;
+}
