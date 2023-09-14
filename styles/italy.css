@@ -36,28 +36,36 @@ img {
 .locations{
     border: 1px solid cornflowerblue;
     background-color: cornflowerblue; 
+    text-align: center;
+   
 }
 .location_header{
     display: flex;
     flex-direction: row;
+   
 }
 .location_one{
     display: flex ;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .location_two{
     display: flex ;
     flex-direction: row;
+    
 }
 .location_three{
     display: flex ;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .card{
     border: 1px solid black ;
     padding: 5px;
     img {
         width: 200px;
-        height: 200px;}
+        height: 200px;
+
+    }
 
 }
