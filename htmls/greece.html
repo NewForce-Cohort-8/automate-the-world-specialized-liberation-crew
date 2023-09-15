@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
+    <nav>
+        <a href="/">Home</a> 
+        <a href="htmls/greece.html">Greece</a>
+        <a href="htmls/italy.html">Italy</a>
+        <a href="htmls/jamaica.html">Jamaica</a>
+        <a href="htmls/sweden.html">Sweden</a>
+        <a href="htmls/switzerland.html">Switzerland</a>
+        
+    </nav>
     <title>Vacation Brochure</title>
+    <!--Header_image contains the header image with the text "Make your Greek Vacation a Historic One!"-->
+    <div class="title">
+        <section class="header_image">
+            <figure class="image">
+                <img src="https://image.cnbcfm.com/api/v1/image/107217145-1680104038553-gettyimages-1215999933-156435919.jpeg?v=1683854297&w=1340&h=500&ffmt=webp&vtcrop=y" alt="Woman standing in the foreground of a scenic picture of a coastal greek city">
+                <figcaption class="text">Make Your Greek Vacation Historic!</figcaption>
+                </figure>
+            </section>
+    </div>
+    <link rel="stylesheet" href="../styles/greece.css">
 </head>
 <body>
-    <h1>Make Greece Your Vacation Destination!</h1>
-    <!--The class "locations" will encompass all sections of the site-->
+    
+    <!--The class "locations" will encompass all location sections of the site-->
     <section class="locations">
-    <!--Header contains the header and header image with the text "Make your Greek Vacation a Historic One!"-->
-
-    <div class="header_two">
-        <section class="header_image"></section>
-        <img class="top" src="https://image.cnbcfm.com/api/v1/image/107217145-1680104038553-gettyimages-1215999933-156435919.jpeg?v=1683854297&w=1340&h=500&ffmt=webp&vtcrop=y" alt="Woman standing in the foreground of a scenic picture of a coastal greek city">
-        <article class="header_title"></article>
-    </div>
-        </section>
 
 <!--Location 1 containing Thermopylae with 3 cards for city, landmark, and person. -->   
-
+        <div class="location_header">
+        <h2>Thermopylae</h2>
+        </div>
         <section class="location_one">
-            <h2>Thermopylae</h2>
-
         <!--Card containing "Thermopylae" the location-->
             <div class="card">
             <img class="city" src="https://cdn.britannica.com/65/117665-050-81F2C7BD/Thermopyles-Greece.jpg" alt="Image of the landscape of Thermopylae">
@@ -47,11 +57,14 @@
         </section>
 
 <!--Section 2 containing Rhodes and the cards city, landmark, and person.-->
-
+        <!--Location header-->
+        <div class="location_header">
+            <h2>Rhodes</h2>
+            </div>
+        
+        <!--Card containing the city of Rhodes-->
         <section class="location_two">
             <div class="card">
-            <h2>Rhodes</h2>
-        <!--Card containing the city of Rhodes-->
             <img class="city" src="https://cdn.britannica.com/65/114965-050-3C4F95F4/citadel-acropolis-Lindos-Greeks-Romans-Byzantines-Ottomans.jpg" alt="Image of the Island of Rhodes">
             <p>Rhodes is the largest of the Dodecanese islands of Greece and is their historical capital; it is the ninth largest island in the overall Mediterranean Sea.</p>
             </div>
@@ -68,17 +81,21 @@
         </section>
 
 <!--Section 3 containing Athens with cards city, landmark, and person.-->
+                <div class="location_header">
+                <h2>Athens</h2>
+                </div>
         <section>
             <section class="location_three">
-                <h2>Athens</h2>
         <!--Card containing the city Athens-->
                 <div class="card">
                 <img class="city" src="https://cdn.britannica.com/66/102266-050-FBDEFCA1/acropolis-city-state-Greece-Athens.jpg" alt="Image of Acropolis and the surrounding area">
                 <p>Athens, Modern Greek Athínai, Ancient Greek Athēnai, historic city and capital of Greece. Many of Classical civilization’s intellectual and artistic ideas originated there, and the city is generally considered to be the birthplace of Western civilization.</p>
                 </div>
         <!--Card containing the landmark Temple of Zeus-->
+                <div class="card">
                 <img class="landmark" src="https://upload.wikimedia.org/wikipedia/commons/9/93/L%27Olympieion_%28Ath%C3%A8nes%29_%2830776483926%29.jpg" alt="Image of The Temple of Olympian Zeus">
                 <p>The Temple of Olympian Zeus (Greek: Ναός του Ολυμπίου Διός, Naós tou Olympíou Diós), also known as the Olympieion or Columns of the Olympian Zeus, is a former colossal temple at the centre of the Greek capital, Athens. It was dedicated to "Olympian" Zeus, a name originating from his position as head of the Olympian gods.</p>
+                </div>
         <!--Card containing person Zeus-->
                 <div class="card">
                 <img class="person" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Jupiter_Smyrna_Louvre_Ma13.jpg/800px-Jupiter_Smyrna_Louvre_Ma13.jpg" alt="Statue of the Greek God Zeus">
