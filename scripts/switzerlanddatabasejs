@@ -1,0 +1,73 @@
+
+const database = {
+    cities: [
+        {
+            image: "https://cdn.britannica.com/44/102444-050-7260C54D/Zurich-Switzerland.jpg",
+            cityName: "Zurich",
+            description: `Touristy Info on Zurich”` ,
+
+        },
+        {
+            image: "https://www.shutterstock.com/shutterstock/photos/2273071977/display_1500/stock-photo-switzerland-bern-canton-bern-view-of-illuminated-old-town-in-morning-2273071977.jpg",
+            cityName: "Bern",
+            description: "Touristy Info on Bern" ,
+
+        },
+        {
+            image: "https://www.shutterstock.com/shutterstock/photos/1250539240/display_1500/stock-photo-geneva-night-view-with-the-alps-1250539240.jpg",
+            cityName: "Geneva",
+            description: "Touristy Info on Geneva" ,
+
+        }
+
+    ],
+    landmarks: [
+        {
+            image: "https://www.shutterstock.com/shutterstock/photos/1658431843/display_1500/stock-photo-scenic-view-of-historic-zurich-city-center-with-famous-fraumunster-and-grossmunster-churches-and-1658431843.jpg",
+            landmarkName: "Old Town Zurich",
+            description: "Old Town Zurich" ,
+
+        },
+        {
+            image: "https://previews.123rf.com/images/nui7711/nui77111404/nui7711140400009/27296757-old-town-in-bern-switzerland.jpg",
+            landmarkName: "OLd Town Bern",
+            description: "Old Town Bern" ,
+
+        },
+        {
+            image: "https://media.gettyimages.com/id/159087084/photo/st-pierre-cathedral-the-old-town-geneva.jpg?s=2048x2048&w=gi&k=20&c=OulJL35Kg-PTt7AQUPhmIzaNtw6UFEIu6x3sfyPNXzU=",
+            landmarkName: "St. Pierres Cathedral",
+            description: "St. Pierres Cathedral" ,
+
+        }  
+    ],
+    celebrities: [
+        {
+            image: "https://hips.hearstapps.com/hmg-prod/images/gettyimages-3091504.jpg",
+            celebrityName: "Einstein",
+            description: "Einstein" ,
+
+        },
+        {
+            image: "https://media.gettyimages.com/id/1347539006/photo/carolina-hurricanes-v-nashville-predators.jpg?s=2048x2048&w=gi&k=20&c=-xdl09lQAf7G-cYI7xcQn0eDOuKOmriN9lYocwzHWQQ=",
+            celebrityName: "Josi",
+            description: "Josi" ,
+
+        },
+        {
+            image: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Henry_Dunant_1855.jpg",
+            celebrityName: "Dunant",
+            description: "Dunant" ,
+
+        }  
+    ]
+}
+
+export const getCities = () => {
+    return database.cities.map(copyOfSingleCityObject => ({...copyOfSingleCityObject}))
+}
+export const getLandmarks = () => {
+    return database.landmarks.map(copyOfSingleLandmarkObject => ({...copyOfSingleLandmarkObject}))
+}
+export const getCelebrities = () => {
+    return database.celebrities.map(copyOfSingleCelebrityObject => ({...copyOfSingleCelebrityObject}))

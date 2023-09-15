@@ -1,0 +1,32 @@
+
+.locations{
+    border: 1px solid black;
+}
+.card{
+    border: 1px solid black ;
+    img {
+        width: 150px;
+        height: 150px;}
+
+}
+
+    
+
+.header_two{
+    position: relative;
+}
+.top{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
