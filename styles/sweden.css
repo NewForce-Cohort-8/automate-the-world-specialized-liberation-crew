@@ -1,0 +1,29 @@
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    background-color: rgb(199, 241, 100);
+}
+
+
+
+
+.location_header{
+    display: flex;
+    justify-content: center;
+
+}
+.location_one{
+    display: flex ;
+    flex-direction: row;
+    
+}
+.location_two{
+    display: flex ;
+    flex-direction: row;
+}
+.location_three{
+    display: flex ;
+    flex-direction: row;
+}
+
