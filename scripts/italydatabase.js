@@ -8,15 +8,15 @@ const database = {
             
         },
         {
-            image: "https://teeturtle-s3-web.s3.amazonaws.com/accounts/1/products/1986199883781/PXR-Fin-Noggin-Dude_4200x4200_SEPS-1000x1000.jpg",
+            image: "https://images.unsplash.com/photo-1558271736-cd043ef2e855?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmVuaWNlfGVufDB8fDB8fHww&w=1000&q=80",
             cityName: "Venice",
-            description: "Cowabunga" ,
+            description: "Venice, Italian Venezia, city, major seaport, and capital of both the provincia (province) of Venezia and the regione (region) of Veneto, northern Italy. An island city, it was once the centre of a maritime republic. It was the greatest seaport in late medieval Europe and the commercial and cultural link to Asia" ,
            
         },
         {
-            image: "https://i.ebayimg.com/images/g/RvQAAOSwH6tZjnK-/s-l1600.jpg",
+            image: "https://www.italia.it/content/dam/tdh/en/interests/toscana/pisa/pisa-approfondimento/media/1600X1000_pisa_il_fascino_dell_antica_repubblica_marinara_hero.jpg",
             cityName: "Pisa",
-            description: "Cowabunga" ,
+            description: "Pisa is a city in Italy's Tuscany region best known for its iconic Leaning Tower. Already tilting when it was completed in 1372, the 56m white-marble cylinder is the bell tower of the Romanesque, striped-marble cathedral that rises next to it in the Piazza dei Miracoli. Also in the piazza is the Baptistry, whose renowned acoustics are demonstrated by amateur singers daily, and the Caposanto Monumentale cemetery." ,
             
         }
     
